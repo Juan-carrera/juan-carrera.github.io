@@ -17,10 +17,10 @@
 
             <nav class="nav">
                 <!--<img src="assets/JA.png" class="nav__logo" alt="Logo">-->
-                <a href="" class="nav__items" data-dark>Acerca de</a>
-                <a href="" class="nav__items" data-dark>Portafolio</a>
+                <a href="#about" class="nav__items" data-dark>Acerca de</a>
+                <a href="#projects" class="nav__items" data-dark>Portafolio</a>
                 <!--<a href="" class="nav__items">Blog</a>-->
-                <a href="" class="nav__items" data-dark>Contacto</a>
+                <a href="#contact" class="nav__items" data-dark>Contacto</a>
                 <button class="dark-theme-btn">🌑</button>
             
             </nav>
@@ -41,16 +41,16 @@
     <main>
 
         <!--PRESENTATION-->
-        <section class="presentation container">
+        <section class="presentation container" id="about">
             <h2 class="subtitle-presentation">Acerca de mi</h2>
             <img src="assets/foto.jpg" class="presentation__picture">
             <p class="presentation__copy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel at laboriosam, beatae quasi maiores sed nemo magni excepturi ipsum rem voluptatem sit natus quas facere tempora repellendus nulla et voluptatibus.</p>
-            <a href="#" class="presentation__cta">Contáctame ahora</a>
+            <a href="#contact" class="presentation__cta">Contáctame ahora</a>
         </section>
 
 
         <!--projects-->
-        <section class="projects" data-dark>
+        <section class="projects" data-dark id="projects">
             <div class="container">
                 <h2 class="projects__subtitle" data-dark>Proyectos</h2>
                 <div class="projects__grid">
@@ -148,7 +148,7 @@
         
     </main>
    <!--FOOTER-->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container__footer footer__grid">
             <section class="footer__contact">
                 <div class="footer__icons">
