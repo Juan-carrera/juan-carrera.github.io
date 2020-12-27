@@ -274,6 +274,11 @@ body{
     color: #fff;
 }
 
+.projects__icon:hover{
+    color: #000000;
+    transition: .4s;
+}
+
 
 
 
