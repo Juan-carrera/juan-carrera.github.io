@@ -350,7 +350,7 @@ body{
     color: #fff;
 }
 
-/*SCROLL BTN*/
+/*--------------------------------------SCROLL BTN---------------------*/
 .scroll-top-btn{
     display: none;
 }
@@ -359,6 +359,8 @@ body{
     opacity: 0;
     visibility: hidden;
 }
+
+
 
 /*--------------------RESPONSIVE DESIGN------------------------------*/
 
