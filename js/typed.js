@@ -1,7 +1,7 @@
 const typed = new Typed('.typed', {
 	strings: [
 		'Frontend Developer',
-		'Diseñador Web',
+		'Diseñador UI',
 		
 	],
 
